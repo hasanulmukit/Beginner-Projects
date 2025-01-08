@@ -4,4 +4,4 @@ This repository contains a collection of beginner-friendly programming projects 
 
 **Happy Coding!**
 
-We hope this collection of projects helps you on your coding journey. If you have any questions or feedback, feel free to create an issue or pull request.
+I hope this collection of projects helps you on your coding journey. If you have any questions or feedback, feel free to create an issue or pull request.
