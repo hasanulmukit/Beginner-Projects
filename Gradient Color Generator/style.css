@@ -1,0 +1,177 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to left top, #e37f21, #a8ddc5);
+  color: #333;
+  font-size: 16px;
+}
+.wrapper {
+  width: 450px;
+  padding: 25px;
+  max-width: 500px;
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+
+.wrapper .gradient-box {
+  height: 220px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to left top, #5665E9, #A271F8);
+}
+
+.wrapper .gradient-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.wrapper .row {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+.options p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+.row :where(.column, button) {
+  width: calc(100% / 2 - 12px);
+}
+.options .select-box {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}
+.select-box select {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.12rem;
+  background: none;
+  color: #444;
+  cursor: pointer;
+}
+.options .palette {
+  margin-left: 60px;
+}
+.palette input {
+  height: 41px;
+  width: calc(100% / 2 - 20px);
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.palette input:hover {
+  transform: scale(1.1);
+}
+
+.palette input:last-child {
+  margin-left: 6px;
+}
+.wrapper textarea {
+  width: 100%;
+  color: #555;
+  font-size: 1.05rem;
+  resize: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease;
+}
+.wrapper textarea:focus {
+  box-shadow: 0 0 8px rgba(138, 108, 255, 0.5);
+}
+.buttons button {
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin: 0 0 -15px;
+  font-size: 1.09rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.buttons .refresh {
+  background: linear-gradient(135deg, #6C757D, #495057);
+
+}
+.buttons .refresh:hover {
+  background: #5f666d;
+}
+.buttons .copy {
+  background: linear-gradient(135deg, #8A6CFF, #5A47DB);
+}
+.buttons .copy:hover {
+  background: #704dff;
+}
+
+@media screen and (max-width: 432px) {
+  .wrapper {
+    padding: 25px 20px;
+    width: 100%;
+    padding: 15px;
+  }
+  .row :where(.column, button) {
+    width: calc(100% / 2 - 8px);
+  }
+  .options p {
+    font-size: 1rem;
+  }
+
+  .buttons button {
+    font-size: 0.9rem;
+  }
+  .options .select-box {
+    padding: 8px 15px;
+  }
+  .options .palette  {
+    margin-left: 40px;
+  }
+  .options .colors {
+    display: flex;
+    justify-content: space-between;
+  }
+  .palette input {
+    width: calc(100% / 2 - 5px);
+  }
+  .palette input:last-child {
+    margin-left: 0;
+  }
+}
