@@ -1,0 +1,89 @@
+:root {
+  --clr-primary: linear-gradient(90deg, #49a6e9, #2062af);
+  --clr-secondary: linear-gradient(90deg, #c59d5f, #a7732b);
+  --clr-grey-bg: #f3f4f6;
+  --clr-text-dark: #222;
+  --clr-text-light: #fff;
+  --radius: 0.5rem;
+  --transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--clr-grey-bg);
+  color: var(--clr-text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.section-center {
+  max-width: 1200px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.gift-img img {
+  max-width: 100%;
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+}
+
+.gift-img img:hover {
+  transform: scale(1.05);
+}
+
+.gift-info h3 {
+  background: var(--clr-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gift-info p {
+  color: var(--clr-text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.deadline {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.deadline-format {
+  background: var(--clr-secondary);
+  color: var(--clr-text-light);
+  padding: 1rem;
+  border-radius: var(--radius);
+  text-align: center;
+  width: 5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.deadline-format:hover {
+  transform: scale(1.1);
+  background: var(--clr-primary);
+}
+
+.deadline-format h4 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.deadline-format span {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h4.expired {
+  color: var(--clr-text-dark);
+  font-size: 1.25rem;
+}
