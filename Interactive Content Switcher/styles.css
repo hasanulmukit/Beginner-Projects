@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #49a6e9, #36d1dc);
+  --hover-gradient: linear-gradient(135deg, #5bc6ff, #36e9d9);
+  --text-dark: hsl(209, 61%, 16%);
+  --text-light: hsl(210, 36%, 96%);
+  --transition: 0.3s ease-in-out;
+  --radius: 0.5rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: hsl(210, 33%, 89%);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.title p {
+  margin: 0 auto;
+  max-width: 600px;
+  color: hsl(210, 22%, 49%);
+}
+
+.about-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  flex: 1;
+  background: var(--text-light);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+  display: flex;
+  background: var(--primary-gradient);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: var(--text-light);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tab-btn:hover:not(.active) {
+  background: var(--hover-gradient);
+}
+
+.tab-btn.active {
+  background: var(--text-light);
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+.about-content {
+  padding: 1.5rem;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
