@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "title": "Buttermilk Pancakes",
+      "category": "breakfast",
+      "price": 15.99,
+      "img": "./images/item-1.jpg",
+      "desc": "Fluffy pancakes served with maple syrup and butter."
+    },
+    {
+      "id": 2,
+      "title": "Diner Double",
+      "category": "lunch",
+      "price": 13.99,
+      "img": "./images/item-2.jpg",
+      "desc": "Classic double cheeseburger with fries."
+    },
+    {
+      "id": 3,
+      "title": "Godzilla Milkshake",
+      "category": "shakes",
+      "price": 6.99,
+      "img": "./images/item-3.jpg",
+      "desc": "Rich and creamy milkshake topped with whipped cream."
+    },
+    {
+      "id": 4,
+      "title": "Country Delight",
+      "category": "breakfast",
+      "price": 20.99,
+      "img": "./images/item-4.jpg",
+      "desc": "Hearty country breakfast with eggs, toast, and sausage."
+    },
+    {
+      "id": 5,
+      "title": "Egg Attack",
+      "category": "lunch",
+      "price": 22.99,
+      "img": "./images/item-5.jpg",
+      "desc": "Egg-filled burger with a spicy twist."
+    },
+    {
+      "id": 6,
+      "title": "Oreo Dream",
+      "category": "shakes",
+      "price": 18.99,
+      "img": "./images/item-6.jpg",
+      "desc": "Oreo milkshake made with real cookie crumbles."
+    },
+    {
+      "id": 7,
+      "title": "Bacon Overflow",
+      "category": "breakfast",
+      "price": 8.99,
+      "img": "./images/item-7.jpg",
+      "desc": "Crispy bacon served with hash browns and eggs."
+    },
+    {
+      "id": 8,
+      "title": "American Classic",
+      "category": "lunch",
+      "price": 12.99,
+      "img": "./images/item-8.jpg",
+      "desc": "Classic hamburger with all the trimmings."
+    },
+    {
+      "id": 9,
+      "title": "Meat lovers Pizza",
+      "category": "fast food",
+      "price": 16.99,
+      "img": "./images/item-9.png",
+      "desc": "Cheesy crusty meaty blast."
+    },
+    {
+      "id": 10,
+      "title": "Bison Steak",
+      "category": "dinner",
+      "price": 22.99,
+      "img": "./images/item-10.jpg",
+      "desc": "Juicy bison steak with garlic mashed potatoes."
+    },
+    {
+      "id": 11,
+      "title": "Chocolate Lava Cake",
+      "category": "dessert",
+      "price": 8.99,
+      "img": "./images/item-11.jpg",
+      "desc": "Warm chocolate cake with a gooey molten center."
+    },
+    {
+      "id": 12,
+      "title": "Fruit Parfait",
+      "category": "dessert",
+      "price": 6.99,
+      "img": "./images/item-12.jpg",
+      "desc": "Layers of fresh fruit, yogurt, and granola."
+    },
+    {
+      "id": 13,
+      "title": "Pepperoni Pizza",
+      "category": "fast food",
+      "price": 14.99,
+      "img": "./images/item-13.jpg",
+      "desc": "Cheesy pepperoni pizza with a crispy crust."
+    },
+    {
+      "id": 14,
+      "title": "Loaded Nachos",
+      "category": "fast food",
+      "price": 10.99,
+      "img": "./images/item-14.jpg",
+      "desc": "Tortilla chips loaded with cheese, salsa, and jalapeños."
+    }
+  ]
+  
